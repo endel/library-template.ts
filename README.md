@@ -1,12 +1,22 @@
 TypeScript Library Template
 ===
 
-Simple template for authoring TypeScript libraries.
+Template for authoring TypeScript libraries for the browser. Uses Webpack +
+Karma + Mocha for testing.
 
 Usage
 ---
 
-Start [karma](https://github.com/karma-runner/karma) test-runner and watch for code change.
+First, clone and install the dependencies:
+
+```
+git clone https://github.com/endel/library.ts.git
+cd library.ts
+npm install
+```
+
+Start [karma](https://github.com/karma-runner/karma) test-runner and watch for
+code change.
 
 ```
 npm start
@@ -28,4 +38,3 @@ License
 ---
 
 MIT
-

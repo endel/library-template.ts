@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "typings": "src/index.d.ts",
   "scripts": {
+    "install": "typings install",
     "start": "karma start",
     "prepublish": "tsc -d src/index.ts",
     "test": "mocha test/**.ts --require ts-node/register"
