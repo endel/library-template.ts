@@ -1,0 +1,43 @@
+{
+  "name": "library.ts",
+  "version": "1.0.0",
+  "description": "TypeScript Library Template using Webpack + Karma for cross-browser testing.",
+  "main": "src/index.js",
+  "typings": "src/index.d.ts",
+  "scripts": {
+    "start": "karma start",
+    "prepublish": "tsc -d src/index.ts",
+    "test": "mocha test/**.ts --require ts-node/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endel/library.ts.git"
+  },
+  "keywords": [
+    "typescript",
+    "library",
+    "module",
+    "authoring"
+  ],
+  "author": "Endel Dreyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/endel/library.ts/issues"
+  },
+  "homepage": "https://github.com/endel/library.ts#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^1.1.1",
+    "chai": "^3.5.0",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-mocha": "^1.0.1",
+    "karma-typescript-preprocessor": "^0.2.0",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.5.3",
+    "ts-node": "^0.8.0",
+    "typescript": "^1.8.10",
+    "webpack": "^2.1.0-beta.13",
+    "webpack-dev-server": "^2.1.0-beta.0"
+  }
+}

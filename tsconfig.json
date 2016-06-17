@@ -1,0 +1,12 @@
+{
+  "baseDir": "src",
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules",
+    "test"
+  ]
+}
