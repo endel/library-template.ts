@@ -1,8 +1,8 @@
 TypeScript Library Template
 ===
 
-Template for authoring TypeScript libraries for the browser. Uses Webpack +
-Karma + Mocha for testing.
+Template for authoring TypeScript modules/libraries. Uses Webpack + Karma +
+Mocha for testing.
 
 Usage
 ---
