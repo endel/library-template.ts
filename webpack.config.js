@@ -13,8 +13,6 @@ module.exports = (function(options) {
       filename: "bundle.js"
     },
 
-    extensions: ['.ts', '.js', '.json'],
-
     devtool: 'source-map',
 
     module: {
@@ -28,6 +26,7 @@ module.exports = (function(options) {
     ],
 
     resolve: {
+      extensions: ['.ts', '.js', '.json'],
       root: [ path.join(__dirname, "./node_modules"), path.join(__dirname, "./src") ]
     }
 
