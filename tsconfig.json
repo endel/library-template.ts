@@ -1,7 +1,9 @@
 {
   "baseDir": "src",
   "compilerOptions": {
+    "target": "ES5",
     "module": "commonjs",
+    "outDir": "dist",
     "noImplicitAny": true,
     "sourceMap": true
   },
