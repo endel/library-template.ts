@@ -6,7 +6,7 @@ includes:
 
 - TypeScript as authoring language
 - Mocha as testing framework
-- Karma for in browser testing
+- Karma for browser testing
 - Webpack for bundling your static library.
 
 Usage
