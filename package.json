@@ -6,6 +6,7 @@
   "typings": "./dist/index.d.ts",
   "scripts": {
     "start": "karma start",
+    "bundle": "webpack",
     "prepublish": "rimraf ./dist && tsc -d",
     "test": "mocha test/**.ts --require ts-node/register"
   },

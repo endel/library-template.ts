@@ -4,13 +4,17 @@ const path = require('path')
 module.exports = (function(options) {
 
   return {
-    entry: {
-      main: __dirname + "/src/index.ts"
-    },
+    entry: __dirname + "/src/index.ts",
 
     output: {
       path: __dirname + "/dist",
-      filename: "bundle.js"
+
+      //
+      // TODO:
+      // Enter your library name here!
+      //
+      filename: "LibraryTemplate.js",
+      library: "LibraryTemplate"
     },
 
     devtool: 'source-map',

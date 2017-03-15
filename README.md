@@ -1,8 +1,12 @@
 TypeScript Library Template
 ===
 
-Template for authoring TypeScript modules for the browser. Uses Webpack + Karma
-+ Mocha for testing.
+Template for authoring TypeScript modules for the browser. This template
+includes:
+
+- Mocha as testing framework
+- Karma for in browser testing
+- Webpack for bundling your static library.
 
 Usage
 ---
@@ -32,6 +36,13 @@ Generate distribution files and typing definitions.
 
 ```
 npm prepublish
+```
+
+Bundling your static library
+---
+
+```
+npm bundle
 ```
 
 License
