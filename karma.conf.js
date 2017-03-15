@@ -23,6 +23,9 @@ module.exports = function(config) {
       require("karma-chai"),
       require("karma-chrome-launcher"),
     ],
+    mime: {
+      'text/x-typescript': ['ts','tsx']
+    },
     reporters: ["dots"],
     port: 9876,
     colors: true,
