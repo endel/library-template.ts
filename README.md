@@ -4,6 +4,7 @@ TypeScript Library Template
 Template for authoring TypeScript modules for the browser. This template
 includes:
 
+- TypeScript as authoring language
 - Mocha as testing framework
 - Karma for in browser testing
 - Webpack for bundling your static library.
