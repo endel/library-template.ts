@@ -7,7 +7,7 @@
   "scripts": {
     "start": "karma start",
     "bundle": "webpack",
-    "prepublish": "rimraf ./dist && tsc -d",
+    "prepublish": "rimraf ./lib && tsc -d",
     "test": "mocha test/**.ts --require ts-node/register"
   },
   "repository": {
