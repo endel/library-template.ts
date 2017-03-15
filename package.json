@@ -5,7 +5,6 @@
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
-    "install": "typings install",
     "start": "karma start",
     "prepublish": "rimraf ./dist && tsc -d",
     "test": "mocha test/**.ts --require ts-node/register"
