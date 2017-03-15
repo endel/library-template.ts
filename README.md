@@ -43,7 +43,7 @@ Bundling your static library
 ---
 
 ```
-npm bundle
+npm run bundle
 ```
 
 License
