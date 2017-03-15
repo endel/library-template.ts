@@ -1,9 +1,7 @@
-/// <reference path="../typings/index.d.ts" />
-
 import { assert } from "chai"
 
-import Library from "../src/index.ts"
-import { another } from "../src/index.ts"
+import Library from "../src/index"
+import { another } from "../src/index"
 
 describe("Library", () => {
   it("should assert something", () => {
