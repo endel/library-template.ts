@@ -2,8 +2,8 @@
   "name": "library.ts",
   "version": "1.0.0",
   "description": "TypeScript Library Template using Webpack + Karma for cross-browser testing.",
-  "main": "./dist/index.js",
-  "typings": "./dist/index.d.ts",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
   "scripts": {
     "start": "karma start",
     "bundle": "webpack",
